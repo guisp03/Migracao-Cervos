@@ -13,8 +13,31 @@ def deer_page():
 
     st.title("Veado-vermelho 🦌")
     st.image(str(dir_path / "images/female_red_deer.jpg"))
-    st.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in nulla justo. Mauris mattis bibendum eros. Duis elementum purus nec ex sodales vehicula. Aenean accumsan arcu vitae sapien interdum lobortis. Donec urna lacus, interdum eget interdum vitae, elementum et tellus. Nulla suscipit efficitur eros vel consectetur. Sed a blandit ligula, porta molestie dolor. Vivamus quis eros vel purus mollis cursus. Suspendisse potenti. Mauris interdum mattis magna id elementum. Nulla dapibus eros dictum dolor faucibus vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus ac ligula dolor.")
-    st.write("Sed finibus tincidunt eleifend. Vestibulum fermentum quis nunc sed imperdiet. Nullam hendrerit neque felis, vitae egestas ante euismod sit amet. Morbi euismod mollis augue, vitae scelerisque orci efficitur quis. Nullam eget massa vel nisl rutrum molestie eu vel dui. Integer accumsan eros odio, a ultricies arcu venenatis ut. Nullam feugiat dapibus porta. Proin eget posuere magna. Maecenas id nibh ornare, fringilla leo sit amet, varius magna. Praesent convallis, elit sit amet blandit tempus, magna ligula rutrum sem, id consequat orci orci at ante. Aenean eget ex aliquet, hendrerit mi vel, lobortis ex. Sed vel dui eu metus suscipit ullamcorper.")
+    st.write("O veado-vermelho ou cervo-vermelho (Cervus elaphus) é uma\
+             espécie de veado de grande porte do hemisfério norte,\
+             distribuído pela Europa, Ásia e Norte da África. A espécie foi\
+             também introduzida em várias regiões do mundo.")
+    st.write("Um estudo analisou o comportamento de 13 veados da cordilheira\
+             dos Apeninos do Norte na Itália, entre 2011 e 2017 e apresentou\
+             os seguintes resultados:")
+    st.markdown("- Os veados vermelhos exibiram duas estratégias coexistentes\
+                , ou seja, migratória e estacionária.")
+    st.markdown("- Na amostra, as fêmeas tenderam a migrar mais que os machos")
+    st.markdown("- Foi encontrado um alto nível de variabilidade\
+                 interindividual na data de migração/retorno, enquanto cada\
+                 cervo migratório foi muito conservador durante o período de\
+                estudo.")
+    st.markdown("- As faixas de migração foram em média 12 ± 4,2 km da área\
+                 de residência.")
+    st.markdown("- Tanto os cervos migratórios quanto os residentes exibiram\
+                 alta fidelidade ao local. Nenhuma mudança da estratégia\
+                 migratória para estacionária foi observada em nenhum cervo\
+                 durante o período do estudo. No entanto, o período poderia\
+                 ter sido demasiado curto para detectar qualquer mudança.")
+    st.write("O presente projeto, visa simular a rota de veados vermelhos \
+             fêmeas da região de Alberta no Canadá em seu período migratório\
+             e como essa rota se altera ao longo do tempo em relação às\
+             mudanças climáticas.")
 
 if __name__ == "__main__":
    deer_page()
